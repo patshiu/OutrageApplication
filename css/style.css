@@ -1,0 +1,60 @@
+.topic {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #999;
+	margin-bottom: 0.2rem;
+}
+
+.titleTopic {
+	margin-bottom: 0;
+}
+.team {
+	color: #999;
+	font-family: Georgia,Times,"Times New Roman",serif;
+	font-size: 1.5rem;
+	font-style: italic;
+	margin: 0.2rem 0 2rem 0;
+	
+}
+.team em, .team em a, .team em a:hover {
+	font-style: normal;
+	border-bottom: 1px dotted;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.question {
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.quote p{
+	font-family: Georgia,Times,"Times New Roman",serif;
+	font-size: 2rem;
+	font-style: italic;
+	margin: 2rem 1.5rem 1rem 1.5rem !important;
+}
+
+.attribution p{
+	text-align: right;
+	font-size: 0.8rem;
+	margin: 0rem 1.5rem 4rem 1.5rem !important;
+}
+
+.noBullets {
+	list-style: none;
+}

@@ -32,6 +32,7 @@ li em{
 .team em, .team em a, .team em a:hover {
 	font-style: normal;
 	border-bottom: 1px dotted;
+	text-decoration: none;
 }
 
 .videoWrapper {
